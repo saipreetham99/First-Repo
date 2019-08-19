@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="Resources.Listeners"/>
+    <listener class-name="Resources.ExtentReporterNG"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="Practice.FrameworkAppium.ApiDemo">
+        <methods>
+          <include name="apiDemoTest"/>
+        </methods>
+      </class> <!-- Practice.FrameworkAppium.ApiDemo -->
+      <class name="Practice.FrameworkAppium.General">
+        <methods>
+          <include name="totalValidation"/>
+        </methods>
+      </class> <!-- Practice.FrameworkAppium.General -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
